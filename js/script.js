@@ -61,3 +61,17 @@ myButton.addEventListener("click",
 
         }
     })
+
+
+    const cancelButton = document.getElementById("annulla-button");
+
+    cancelButton.addEventListener("click",
+     function () {
+       
+        document.getElementById("inputName").value = "";
+        document.getElementById("inputKm").value = "";
+        document.getElementById("age-select").value = ""; 
+        document.getElementById("name").innerHTML = "";
+        document.getElementById("price-ticket").innerHTML = "";
+        document.getElementById("type-ticket").innerHTML = "";
+    });
